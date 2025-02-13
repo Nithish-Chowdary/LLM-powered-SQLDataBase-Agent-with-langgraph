@@ -1,0 +1,8 @@
+langchain-community
+langchain-core
+langgraph
+langchain-postgres
+ollama
+sqlalchemy
+psycopg2
+
