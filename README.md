@@ -27,7 +27,7 @@ This project is an LLM-powered SQL Database Agent that uses LangChain and LangGr
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:Nithish-Chowdary/LLM-powered-SQLDataBase-Agent-with-langgraph.git
    cd LLM-powered-SQLDataBase-Agent-with-langgraph
    ```
 2. Create a virtual environment:
