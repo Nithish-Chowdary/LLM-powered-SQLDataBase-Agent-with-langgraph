@@ -10,19 +10,43 @@ This project allows querying a PostgreSQL database using a language model of cho
 
 ## Installation
 
-1. **Set Up Virtual Environment:**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   ```
+# LLM-Powered SQL Database Agent with LangChain and LangGraph
 
-2. **Install Dependencies:**
+## Project Overview
+This project is an LLM-powered SQL Database Agent that uses LangChain and LangGraph to dynamically interact with PostgreSQL databases. It allows users to generate and execute SQL queries using natural language commands, powered by the Chatollama Mistral model.
+
+## Features
+- **Natural Language to SQL Conversion:** Automatically generates SQL queries from natural language inputs.
+- **Dynamic Database Exploration:** Explores database schemas to provide more accurate queries.
+- **Multi-Step Reasoning:** Uses multi-step reasoning for SQL data fetching and validation.
+
+## Prerequisites
+1. **Python:** Ensure Python 3.11.10 is installed.
+2. **PostgreSQL:** Set up a PostgreSQL database instance.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd LLM-powered-SQLDataBase-Agent-with-langgraph
+   ```
+2. Create a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+3. Install the required Python libraries:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set Up PostgreSQL Database:**
-   Create a PostgreSQL database with the appropriate credentials.
+## Database Setup
+1. Create a PostgreSQL database.
+2. Configure the following environment variables for the database connection:
+   - `DB_USER`: Your PostgreSQL username.
+   - `DB_PASSWORD`: Your PostgreSQL password.
+   - `DB_NAME`: The name of the PostgreSQL database.
+
 
 ## Environment Variables
 Create a `.env` file with the following variables:
